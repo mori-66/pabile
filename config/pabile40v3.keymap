@@ -21,15 +21,15 @@
 				&kp Q     &kp W    &kp F     &kp P      &kp B       &kp J    &kp L       &kp U     &kp Y    &kp TAB
 				&kp A     &kp R    &kp S     &kp T      &kp G       &kp M    &kp N       &kp E     &kp I    &kp O
 				&kp Z     &kp X    &kp C     &kp D      &kp V       &kp K    &kp H       &kp SPACE &kp ENTER  &kp BSPC
-				&bootloader &kp LALT &kp LSHFT &kp BSPC   &lt 1 SPACE &none    &lt 2 ENTER &lt 4 DEL &kp RGUI &kp ESC
+				&bootloader &none  &none     &none      &none       &none    &mo 1       &none     &none      &none
 			>;
 		};
 		1 {
 			bindings = <
-				&kp N1   &kp N2    &kp N3   &kp N4     &kp N5     &kp N6     &kp N7       &kp N8    &kp N9   &kp N0
-				&kp TAB  &none     &none    &kp GRAVE  &kp LBKT   &kp RBKT   &kp BSLH     &kp SEMI  &kp SQT  &kp MINUS
-				&none    &none     &none    &none      &kp EQUAL  &kp MINUS  &none        &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp C_MUTE
-				&trans   &trans   &trans    &kp BSPC   &trans     &none      &kp KP_ENTER &trans    &trans   &trans
+				&none   &kp 1     &kp 2    &kp 3      &none     &none     &none       &none    &none   &none
+				&none   &kp 4     &kp 5    &kp 6      &none     &none     &none       &none    &none   &none
+                &none   &kp 7     &kp 8    &kp 9      &none     &none     &none       &none    &none   &none
+                &none   &none     &kp 0    &none      &none     &none     &none       &none    &none   &none
 			>;
 		};
 		2 {
