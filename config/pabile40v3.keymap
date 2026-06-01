@@ -21,7 +21,7 @@ default_layer {
         &kp Q      &kp W      &kp F      &kp P      &kp B        &kp J      &kp L       &kp U       &kp Y       &kp TAB
         &kp A      &kp R      &kp S      &kp T      &kp G        &kp M      &kp N       &kp E       &kp I       &kp O
         &kp Z      &kp X      &kp C      &kp D      &kp V        &kp K      &kp H       &kp SPACE   &kp ENTER   &kp BSPC
-        &bootloader &none     &none      &none      &none        &none      &none       &mo 1       &none       &none
+        &bootloader &none     &none      &none      &none        &kp LSHFT      &none       &mo 1       &none       &none
     >;
 };
 
