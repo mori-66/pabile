@@ -21,7 +21,7 @@ default_layer {
         &kp Q      &kp W      &kp F      &kp P      &kp B        &kp J      &kp L       &kp U       &kp Y       &kp TAB
         &kp A      &kp R      &kp S      &kp T      &kp G        &kp M      &kp N       &kp E       &kp I       &kp O
         &kp Z      &kp X      &kp C      &kp D      &kp V        &kp K      &kp H       &kp SPACE   &kp ENTER   &kp BSPC
-        &bootloader &none     &none      &none      &none        &kp LSHFT      &none       &mo 1       &none       &none
+        &bootloader &none     &none      &none      &mo 2        &kp LSHFT      &none       &mo 1       &none       &none
     >;
 };
 
@@ -35,10 +35,10 @@ num_layer {
 };
 		2 {
 			bindings = <
-				&kp F1   &kp F2    &kp F3   &kp F4     &kp F5     &kp F6          &kp F7       &kp F8            &kp F9          &kp F10
-				&kp TAB  &kp F11   &kp F12  &none      &none      &none           &none        &none             &none           &none
-				&none    &kp PSCRN &kp SLCK &kp PAUSE_BREAK  &kp CAPS  &kp KP_NUMLOCK  &none   &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp C_MUTE
-				&trans   &trans    &trans   &trans     &kp SPACE  &none           &kp KP_ENTER &none             &none           &none
+				&kp EXCL &kp EQUAL &kp HASH &kp DQT &kp SQT &kp COLON &kp COMMA &kp DOT &kp SEMI &kp QMARK
+				&kp LBKT  &kp LT   &kp LBRC  &kp LPAR &kp UNDER &kp PRCNT &kp FSLH &kp PLUS &kp STAR &kp MINUS
+				&kp RBKT &kp GT &kp RBRC &kp RPAR  &kp DLLR  &kp AT &kp PIPE &kp AMPS &kp TILDE &kp CARET
+				&none &none &none &none &none &none &none &none &none &none
 			>;
 		};
 		3 {
