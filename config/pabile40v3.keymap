@@ -15,7 +15,7 @@ default_layer {
         &kp Q      &kp W      &kp F      &kp P      &kp B        &kp J      &kp L       &kp U       &kp Y       &kp TAB
         &kp A      &kp R      &kp S      &kp T      &kp G        &kp M      &kp N       &kp E       &kp I       &kp O
         &kp Z      &kp X      &kp C      &kp D      &kp V        &kp K      &kp H       &kp SPACE   &kp ENTER   &kp BSPC
-        &mo 5  &none     &mo 4      &none      &mo 2        &mo 1      &none       &mo 3       &none       &none
+        &mo 5  &none     &none      &mo 4      &mo 2        &mo 1      &mo 3       &none       &none       &none
     >;
 };
 
