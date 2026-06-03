@@ -30,9 +30,9 @@ l1 {
 
         l2 {
 			bindings = <
-				&kp HASH &kp EXCL &kp EQUAL &kp DQT &kp SQT &kp COLON &kp COMMA &kp DOT &kp SEMI &kp QMARK
-				&kp LBRC  &kp LBKT   &kp LT  &kp LPAR &kp UNDER &kp PRCNT &kp FSLH &kp PLUS &kp STAR &kp MINUS
-				&kp RBRC &kp RBKT &kp GT &kp RPAR  &kp DLLR  &kp AT &kp PIPE &kp AMPS &kp TILDE &kp CARET
+				&kp QMARK &kp EXCL &kp EQUAL &kp DQT &kp SQT &kp PRCNT &kp FSLH &kp PLUS &kp STAR &kp MINUS
+				&kp LBRC  &kp LBKT   &kp LT  &kp LPAR &kp HASH &kp COLON &kp COMMA &kp DOT &kp SEMI &kp UNDER
+				&kp RBRC &kp RBKT &kp GT &kp RPAR  &kp AT  &kp DLLR &kp PIPE &kp AMPS &kp TILDE &kp CARET
 				&none &none &none &none &none &none &none &none &none &none
 			>;
 		};
