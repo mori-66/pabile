@@ -48,9 +48,9 @@ l3 {
 
 l4 {
     bindings = <
-        &none      &none     &none     &none     &none        &none      &none       &kp UP       &none       &none
+        &none      &none     &none     &none     &none        &none      &kp LC(C)       &kp UP       &kp LC(V)       &none
         &none      &none     &none     &none     &none        &none      &kp LEFT       &kp DOWN       &kp RIGHT       &none
-        &none      &none     &none     &none     &none        &none      &none       &none       &none       &none
+        &none      &none     &none     &none     &none        &none      &none       &kp LC(S)       &none       &none
         &none      &none      &none     &none      &none        &none      &none       &none       &none       &none
     >;
 };
